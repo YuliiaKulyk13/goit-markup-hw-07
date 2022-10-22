@@ -942,15 +942,15 @@ transition:transform 300ms linear;
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
-.modal-icon{
+.modal__icon{
   transition: var(--transition);
 }
 
-.modal-icon:hover{
+.modal__icon:hover{
   fill:var(--accent-color);
 }
 
-.modal-btn {
+.modal__btn {
   width: 30px;
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.1);
