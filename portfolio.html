@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -16,19 +15,19 @@
     <header class="header">
       <div class="container header-container">
         <nav class="page-nav">
-          <a href="./index.html" class="page-nav__logo link">Web<span style="color:black">Studio</span></a>
-          <ul class="page-nav__list list">
+          <a href="./index.html" class="page-nav__logo">Web<span style="color:black">Studio</span></a>
+          <ul class="page-nav__list">
             <li class="page-nav__link"><a href="./index.html" class="page-nav__item">Studio</a></li>
-            <li class="page-nav__link"><a href="./portfolio.html" class="page-nav__item current">Portfolio</a></li>
+            <li class="page-nav__link"><a href="./portfolio.html" class="page-nav__item--current">Portfolio</a></li>
             <li class="page-nav__link"><a href="" class="page-nav__item">Contacts</a></li>
           </ul>
         </nav>
-        <div class="header-connect list">
-          <a class="header-connect__mail link" href="mailto:info@devstudio.com">
+        <div class="header-connect">
+          <a class="header-connect__mail" href="mailto:info@devstudio.com">
             <svg class="header-connect__icon" width="16px" height="12px">
             <use href="./images4/symbol-defs.svg#icon-envelope"></use>
           </svg>info@devstudio.com</a>
-         <a class="header-connect__tel link"  href="tel:+12127724150"> 
+         <a class="header-connect__tel"  href="tel:+12127724150"> 
             <svg class="header-connect__icon" width="10" height="16px">
             <use href="./images4/symbol-defs.svg#icon-Vector"></use>
           </svg>+1 212-772-4150</a>
@@ -41,16 +40,15 @@
         <div class="container">
       <h1 class="visually-hidden">Portfolio Details</h1>
         
-        <ul class="portfolio-list list">
+        <ul class="portfolio-list">
               <li class="portfolio-list__item"><button type ="button" class="portfolio-list__button">All</button></li>
               <li class="portfolio-list__item"><button type ="button" class="portfolio-list__button">Web-sites</button></li>
               <li class="portfolio-list__item"><button type ="button" class="portfolio-list__button">Apps</button></li>
               <li class="portfolio-list__item"><button type ="button" class="portfolio-list__button">Design</button></li>
               <li class="portfolio-list__item"><button type ="button" class="portfolio-list__button">Marketing</button></li>
           </ul>
-  <ul class="portfolio-card-list list">
-   
-      <li class="portfolio-card-list__link link">
+          <ul class="portfolio-card-list">
+      <li class="portfolio-card-list__link">
           <a class="portfolio-card-list__image" href="">
             <div class="image-wrapper">
             <img src="./images2/people.jpg" alt="group of people" width="370" height="294"/>
@@ -64,7 +62,7 @@
         
       </a>    
         </li>
-      <li class="portfolio-card-list__link link">
+      <li class="portfolio-card-list__link">
         <a class="portfolio-card-list__image" href="">
           <div class="image-wrapper">
         <img src="./images2/basketball.jpg" alt="group of people" width="370" height="294"/>
@@ -78,7 +76,7 @@
              </div>  
             </a>  
       </li>
-      <li class="portfolio-card-list__link link"><a class="portfolio-card-list__image" href="">
+      <li class="portfolio-card-list__link"><a class="portfolio-card-list__image" href="">
         <div class="image-wrapper">
         <img src="./images2/seafood.jpg" alt="menu restaurant" width="370" height="294"/>
           <p class="image-wrapper__text">Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.</p>
@@ -89,7 +87,7 @@
         </div>
       </a>  
       </li>
-      <li class="portfolio-card-list__link link">
+      <li class="portfolio-card-list__link">
         <a class="portfolio-card-list__image" href="">
           <div class="image-wrapper">
           <img src="./images2/headphones.jpg" alt="headphones" width="370" height="294"/>
@@ -102,7 +100,7 @@
         </div>
       </a>  
       </li>
-      <li class="portfolio-card-list__link link">
+      <li class="portfolio-card-list__link">
         <a class="portfolio-card-list__image" href="">
           <div class="image-wrapper">
         <img src="./images2/boxes.jpg" alt="boxes" width="370" height="294"/>
@@ -116,7 +114,7 @@
         </div>
       </a>  
       </li>
-      <li class="portfolio-card-list__link link">
+      <li class="portfolio-card-list__link">
         <a class="portfolio-card-list__image" href="">
           <div class="image-wrapper">
           <img src="./images2/macbook.jpg" alt="macbook" width="370" height="294"/>
@@ -129,7 +127,7 @@
         </div>  
       </a>  
       </li>
-      <li class="portfolio-card-list__link link">
+      <li class="portfolio-card-list__link">
         <a class="portfolio-card-list__image" href="">
           <div class="image-wrapper">
           <img src="./images2/magazine.jpg" alt="magazine" width="370" height="294"/>
@@ -142,7 +140,7 @@
         </div>
       </a>  
       </li>
-      <li class="portfolio-card-list__link link">
+      <li class="portfolio-card-list__link">
         <a class="portfolio-card-list__image" href="">
           <div class="image-wrapper">
           <img src="./images2/label_tag.jpg" alt="label tag" width="370" height="294"/>
@@ -155,7 +153,7 @@
         </div>
       </a>  
       </li>
-      <li class="portfolio-card-list__link link">
+      <li class="portfolio-card-list__link">
         <a class="portfolio-card-list__image" href="">
           <div class="image-wrapper">
           <img src="./images2/notebook.jpg" alt="notebook" width="370" height="294"/>
@@ -176,7 +174,7 @@
     <div class="container">
      <div class="footer-common">
        <div class="footer-left">
-       <div class="footer-page"><a href="" class="footer-page__logo link">Web<span style="color:white">Studio</span></a>
+       <div class="footer-page"><a href="" class="footer-page__logo">Web<span style="color:white">Studio</span></a>
      </div>
        <ul class="footer-list">
        <li class="footer-list__address"><address>
@@ -215,7 +213,7 @@
           <p class="subscribe-form__text">
           <label for="email">Subscribe to the newsletter</label>
         </p>
-          <input type="email" name="email" id="email" placeholder="E-mail"/>
+          <input class="subscribe-form__input" type="email" name="email" id="email" placeholder="E-mail"/>
         </div>
         
           <button class="subscribe-form__btn" type="submit">Subscribe

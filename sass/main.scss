@@ -1,1 +1,19 @@
-@import "./variables";
+@import './utils/vars';
+@import './base/reset';
+@import './utils/hidden';
+
+
+@import './components/container';
+@import './components/modal';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/images';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer-common';
+
+@import './layouts/portfolio-section';
+@import './layouts/portfolio-btn';
+@import './layouts/portfolio-cards';
