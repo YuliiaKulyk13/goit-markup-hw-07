@@ -309,6 +309,15 @@ img {
   transition: var(--transition);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  border: 1px solid #ececec;
+}
+
 .page-nav {
   display: flex;
   align-items: center;
@@ -373,7 +382,6 @@ img {
   transition: var(--transition);
   color: var(--accent-color);
 }
-
 .page-nav__item--current::after {
   content: "";
   display: block;
@@ -387,27 +395,18 @@ img {
   background-color: var(--accent-color);
 }
 
-.list {
-  list-style: none;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
-.header-connect {
+.connect {
   display: flex;
   margin-left: auto;
   align-items: center;
   gap: 30px;
 }
-.header-connect:nth-child(2n) {
+.connect:nth-child(2n) {
   margin-right: 0;
 }
 
-.header-connect__mail,
-.header-connect__tel {
+.connect__mail,
+.connect__tel {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
@@ -418,29 +417,25 @@ img {
   color: #757575;
   transition: var(--transition);
 }
-.header-connect__mail:last-child,
-.header-connect__tel:last-child {
+.connect__mail:last-child,
+.connect__tel:last-child {
   margin-right: 0;
 }
-.header-connect__mail:hover, .header-connect__mail:focus,
-.header-connect__tel:hover,
-.header-connect__tel:focus {
+.connect__mail:hover, .connect__mail:focus,
+.connect__tel:hover,
+.connect__tel:focus {
   color: var(--accent-color);
   fill: #2196f3;
 }
 
-.header-connect__icon {
+.connect__icon {
   fill: currentColor;
   margin-right: 10px;
   transition: var(--transition);
 }
-.header-connect__icon:hover .header-connect__icon:focus {
+.connect__icon:hover .connect__icon:focus {
   color: var(--accent-color);
   fill: #2196f3;
-}
-
-.header {
-  border: 1px solid #ececec;
 }
 
 .hero {
@@ -792,22 +787,22 @@ img {
   color: var(--accent-color);
 }
 
-.footer-list {
+.footer-contacts {
   margin-right: auto;
   margin-right: 70px;
 }
 
-.footer-list__address {
+.footer-contacts__address {
   margin-bottom: 9px;
 }
 
-.footer-list__mail {
+.footer-contacts__mail {
   margin-bottom: 9px;
 }
 
-.footer-list__address,
-.footer-list__mail,
-.footer-list__tel {
+.footer-contacts__address,
+.footer-contacts__mail,
+.footer-contacts__tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -815,8 +810,8 @@ img {
   color: var(--main-text-color);
 }
 
-.footer-list__mail,
-.footer-list__tel {
+.footer-contacts__mail,
+.footer-contacts__tel {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
