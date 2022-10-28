@@ -3,21 +3,6 @@
     align-items: center;
   }
   
-  .page-nav__logo{
-    position: relative;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-right: 94px;
-  
-    font-family: "Raleway";
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  
-    color: var(--accent-color);
-  }
- 
   .page-nav__list {
     display: flex;
     flex-direction: row;
